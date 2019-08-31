@@ -80,7 +80,6 @@ app.get('*', (req, res) => {
     res.render('error',{
         title: '404 ',
         desc:"Page not Found"
-
     })
 })
 app.listen(port, () => {
