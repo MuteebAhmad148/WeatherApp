@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+    <link rel="icon" href="/img/ico.png">
+    <link rel="stylesheet" href="/css/styles.css">
+<head>
+
+</head>
+
+<div class="container">
+    {{>header}}
+    <h1 style="text-align: center">{{title}}</h1>
+    <form action="/weather">
+        <div class="form-group">
+            <bold><label for="loc">Location</label></bold>
+            <input type="text" class="form-control" id="loc" name="location" placeholder="Enter Location" required>
+
+        </div>
+        <button type="submit" class="btn btn-primary">Find</button>
+
+    </form>
+
+    {{>footer}}
+</div>
+
+</html>
