@@ -68,6 +68,7 @@ app.get('/weather', (req, res) => {
                 precp:precp*100
 
 
+
             })
         })
     })
